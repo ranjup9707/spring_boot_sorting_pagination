@@ -17,6 +17,9 @@ public class Product {
 	private int quantity;
 	private long price;
 	
+	public Product() {
+	}
+	
 	public Product(String name, int quantity, long price) {
 		super();
 		this.name = name;
